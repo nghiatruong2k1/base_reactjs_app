@@ -1,0 +1,17 @@
+.container{
+    z-index: var(--index-toast) !important;
+}
+.title{
+    vertical-align: middle !important;
+}
+.body{
+    width: 100% !important;
+    max-width: 22em!important;
+    min-width: 22em!important;
+}
+
+.content{
+    margin: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}

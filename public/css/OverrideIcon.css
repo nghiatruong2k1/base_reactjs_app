@@ -1,0 +1,20 @@
+[class*='MuiCircularProgress-root'],
+[class*='MuiAvatar-root'],
+[class*='MuiSvgIcon-root'],
+[class*='fa-'],
+[class*='icon_root'] {
+  font-size: 1em !important;
+  width: 1em !important;
+  height: 1em !important;
+  color: inherit !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+[class*='-music'] path{
+    transform: translate(-0.15em,0);
+}
+[class*='-play'] path{
+    transform: translate(0.2em,0);
+}

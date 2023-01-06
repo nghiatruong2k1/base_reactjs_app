@@ -1,0 +1,31 @@
+.root{
+	font-size: 2.8rem;
+	z-index: var(--index-loading) !important;
+	position: fixed;
+	inset: 0;
+	width: 100vw;
+	height: 100vh;
+	pointer-events: none;
+	/* background-color: var(--loading-bg) !important; */
+}
+.button{
+	position: fixed !important;
+	top: 0;
+	right: 0;
+	transform: translate(-50%,50%) !important;
+	padding: 0.3em !important;
+	height: 1.2em !important;
+	width: 1.2em !important;
+	min-width: 1em !important;
+	border-radius: 0.2em!important;
+
+	background-color: #fff !important;
+
+}
+.svg{
+	width: 0.8em !important;
+	height: 0.8em !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
